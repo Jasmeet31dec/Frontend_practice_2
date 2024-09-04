@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 0%, 8%)
+}
+
+.mainbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    height: 430px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 8px;
+    margin-top: 70px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 500px){
+    .mainbox{
+        margin-left: 0;
+    }
+}
+
+.avatar-jessica-img{
+    width: 60px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.person-name{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 4px;
+    margin-top: 0;
+
+}
+
+.address{
+    color: hsl(75, 94%, 57%);
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.description{
+    color: hsl(0, 2%, 70%);
+    font-size: 13px;
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+
+.button{
+    width: 240px;
+    height: 50px;
+    margin-top: 13px;
+    border-radius: 7px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 1%, 21%);
+    border: none;
+    font-weight: 700;
+    transition: background-color 0.15s,color 0.15s;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
